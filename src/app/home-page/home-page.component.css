@@ -1,0 +1,144 @@
+
+.landing_home {
+    background: url('../../assets/images/products.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.logo {
+    width: 350px;
+    margin: 0 auto;
+    display: block;
+}
+
+.book_btn, .book_btn:hover, .book_btn:active {
+    background: #ED1E30!important;
+    color: white;
+    width: 70%;
+    height: 45px;
+    border-radius: 20px;
+    margin: 60px auto 0;
+    display: block;
+    outline: none!important;
+    border: none!important;
+}
+
+.arrow_down {
+    color: #ED1E30;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+/************************************** Services Styles **************************************/
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.service_img {
+    width: 300px;
+    margin: 30px auto;
+    display: block;
+    
+}
+
+.red {
+    color: #ED1E30;
+}
+
+.carousel-indicators {
+    bottom: -45px;
+}
+
+.carousel {
+    height: 315px;
+}
+
+.carousel-inner {
+    vertical-align: middle;
+}
+
+.active {
+    background-color: #ED1E30;
+}
+
+
+.services_heading {
+    margin-top: 50px;
+}
+
+.our_work {
+    margin: 50px auto;
+    height: 370px;
+}
+/************************************** our work Styles **************************************/
+
+.img_description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #424242b4;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .img_wrap:hover .img_description {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+/************************************** barbers Styles **************************************/
+
+
+.barber_img {
+    width: 230px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+
+}
+
+.book_with {
+    background: #ED1E30!important;
+    color: white;
+    width: 50%;
+    height: 45px;
+    border-radius: 20px;
+    margin: 20px 10px ;
+    display: inline-block;
+    outline: none!important;
+    border: none!important;
+}
+
+.insta {
+    font-size: 3rem;
+    
+}
+
+.barber_heading {
+    font-weight: 100;
+}
+
+.barber_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

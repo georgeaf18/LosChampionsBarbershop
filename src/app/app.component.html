@@ -1,21 +1,108 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<header>
+
+	
+	<span class="ok"></span>
+  
+			<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+					<div data-toggle="collapse" data-target=".navbar-collapse.show">
+							<a routerLink = ''><h1 class="home_heading" >Home</h1></a>
+						</div>
+
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					  <i class=" burger fas fa-bars"></i>
+					</button>
+				  
+					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+						<li class="nav-item " data-toggle="collapse" data-target=".navbar-collapse.show">
+						  <a href="#our_barbers" class="nav-link home active"  >Book</a>
+						</li>
+
+						<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+						  <a href="#services" class="nav-link "   >Services</a>
+						</li>
+
+						<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+							<a class="nav-link"  
+							routerLink = 'gallery'
+							[routerLinkActiveOptions]= "{exact: true}"
+							routerLinkActive = 'active'
+							>Gallery</a>
+						</li>
+
+						<li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+						  <a href="#footer" class="nav-link"   >Contact</a>
+            </li>
+            
+						<li class="nav-item"
+						data-toggle="collapse" 
+						data-target=".navbar-collapse.show">
+								<a routerLink = 'barbers' class="nav-link" 
+								[routerLinkActiveOptions]= "{exact: true}"
+								routerLinkActive = 'active'
+								>Meet Our Barbers</a>
+              </li>
+						
+					  </ul>
+					  
+					</div>
+				  </nav>
+		
+
+</header>
+
 
 <router-outlet></router-outlet>
+
+
+<footer id="footer">
+
+	<section>
+
+		<h4 class="address_heading">Address</h4>
+
+		<p>
+			8220 Michigan Ave <br>
+			Detroit, Michigan 48210 <br>
+			(313) 436-5672
+
+		</p>
+
+
+	</section>
+
+	<section class="follow_us">
+		<h4>Follow Us</h4>
+		<div class="social_div">
+				<a href="https://www.instagram.com/loschampionsbarbershop/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://www.facebook.com/loschampionsbarbershop/" target="_blank"><i class="fab fa-facebook"></i></a>
+		</div>
+	</section>
+
+	
+</footer>
+
+<div class="top_button">
+			<a id="top_button" href="#navbar" ><i class="top fas fa-arrow-alt-circle-up"></i></a>
+</div>
+
+<div class="footer_footer">
+		<small>Copyright <i class="fas fa-copyright"></i> Los Champions Barbershop</small> <br>
+		<small>Website created by <a class="author" href="https://georgealmonte.com/" target="_blank">https://georgealmonte.com/</a></small>
+	</div>
+
+
+
+	<!-- <script type="module">
+	
+
+			import jump from '../app/libraries/jump.js'
+			
+			let top_btn = document.querySelector('#top_button');
+			
+					top_btn.addEventListener('click', () => {
+						jump('#navbar');
+						console.log('works');
+					});
+			
+	</script> -->

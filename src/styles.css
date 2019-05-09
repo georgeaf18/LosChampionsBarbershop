@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+body,html {
+    background: #1a1919;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}

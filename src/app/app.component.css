@@ -1,0 +1,76 @@
+.home_heading, .home_heading:active, .home_heading:hover {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+    border-top: white solid 1px;
+    font-size: 1.3rem;
+
+}
+
+.burger {
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+}
+
+a {
+    color: white;
+}
+
+footer {
+    background: #424242;
+    height: 300px;
+}
+
+footer h4, footer p {
+    text-align: center;
+}
+
+.address_heading {
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.follow_us {
+    font-size: 3rem;
+}
+
+.social_div {
+    display: flex;
+    justify-content: center;
+}
+
+.social_div i {
+    margin: 0 20px;
+}
+
+.footer_footer {
+    background: #1A1919;
+    text-align: center;
+}
+
+.author {
+    color: #ed1e30;
+}
+
+.top {
+    font-size: 3rem;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: #ed1e30;
+}
+
+.hidden {
+    display: none;
+}

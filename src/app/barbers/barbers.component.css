@@ -1,0 +1,62 @@
+.logo {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.heading {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+hr {
+    background: white;
+    width: 80%;
+}
+
+.barber_img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.center {
+    text-align: center;
+}
+
+.barber_heading {
+    font-weight: 100;
+    margin: 20px 0;
+    color: #ed1e30
+
+}
+
+.barber_text {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.book_btn, .book_btn:hover, .book_btn:active {
+    background: #ED1E30!important;
+    color: white;
+    width: 70%;
+    height: 45px;
+    border-radius: 20px;
+    margin: 30px auto 0;
+    display: block;
+    outline: none!important;
+    border: none!important;
+}
+
+.follow_btn, .follow_btn:hover, .follow_btn:active {
+    color: white;
+    width: 70%;
+    height: 45px;
+    border-radius: 20px;
+    margin: 20px auto 30px;
+    display: block;
+    outline: none!important;
+    border: none!important;
+    background: #424242;
+}
