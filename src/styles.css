@@ -3,4 +3,5 @@ body,html {
     background: #1a1919;
     color: white;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }

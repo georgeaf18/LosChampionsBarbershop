@@ -1,7 +1,9 @@
 .home_heading, .home_heading:active, .home_heading:hover {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-decoration: none;
 }
+
+
 
 .navbar {
     display: flex;
@@ -27,9 +29,14 @@ a {
     color: white;
 }
 
+.map {
+    margin: 0 auto;
+    display: block;
+}
+
 footer {
     background: #424242;
-    height: 300px;
+    padding: 30px 0;
 }
 
 footer h4, footer p {
@@ -37,7 +44,6 @@ footer h4, footer p {
 }
 
 .address_heading {
-    padding-top: 30px;
     margin-top: 20px;
 }
 
@@ -68,9 +74,43 @@ footer h4, footer p {
     position: fixed;
     bottom: 20px;
     left: 20px;
-    color: #ed1e30;
+    color: #fff;
+    cursor: pointer;
 }
 
 .hidden {
     display: none;
 }
+
+@media only screen and (min-width: 768px) {
+    .inner_footer {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .collapse {
+        width: 600px;
+        flex-grow: unset;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        border: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #ed1e30!important;
+    }
+
+    
+
+
+}
+

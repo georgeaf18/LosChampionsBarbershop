@@ -8,13 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'LosChampions';
   
-  controller = new ScrollMagic.Controller();
+  // controller = new ScrollMagic.Controller();
 
-  scene = new ScrollMagic.Scene({
-    triggerElement: '.ok',
-    triggerHook: 'onLeave'
-})
-.setClassToggle('.top_button', 'hidden')
-.addTo(this.controller);
+  // scene = new ScrollMagic.Scene({
+//     triggerElement: '.ok',
+//     triggerHook: 'onLeave'
+// })
+// .setClassToggle('.top_button', 'hidden')
+// .addTo(this.controller);
 
 }
