@@ -60,3 +60,7 @@ hr {
     border: none!important;
     background: #424242;
 }
+
+@media only screen and (min-width: 768px) {
+    
+}
