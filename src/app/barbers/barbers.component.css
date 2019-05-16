@@ -40,7 +40,7 @@ hr {
 .book_btn, .book_btn:hover, .book_btn:active {
     background: #ED1E30!important;
     color: white;
-    width: 30%;
+    width: 50%;
     height: 45px;
     border-radius: 20px;
     margin: 30px auto 0;
@@ -51,7 +51,7 @@ hr {
 
 .follow_btn, .follow_btn:hover, .follow_btn:active {
     color: white;
-    width: 30%;
+    width: 50%;
     height: 45px;
     border-radius: 20px;
     margin: 20px auto 30px;

@@ -59,10 +59,13 @@ main {
 
 .carousel {
     height: 315px;
+    margin: 0 auto;
 }
 
 .carousel-inner {
     vertical-align: middle;
+    margin: 0 auto;
+    width: 350px;
 }
 
 .active {
@@ -94,7 +97,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* transition effect. not necessary */
     transition: opacity .2s, visibility .2s;
   }
   
@@ -118,7 +120,7 @@ main {
 .book_with {
     background: #ED1E30!important;
     color: white;
-    width: 50%;
+    width: 90%;
     height: 45px;
     border-radius: 20px;
     margin: 20px 10px ;
