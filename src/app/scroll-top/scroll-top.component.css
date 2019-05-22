@@ -1,0 +1,17 @@
+    .scroll-to-top {
+    opacity: 0;
+    transition: all .2s ease-in-out;
+   }
+   .show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+   }
+
+   .top {
+    font-size: 3rem;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    cursor: pointer;
+    }

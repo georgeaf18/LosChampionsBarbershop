@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { BarbersComponent } from './barbers/barbers.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ScrollTopComponent } from './scroll-top/scroll-top.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomePageComponent },
@@ -18,7 +19,8 @@ const appRoutes: Routes = [
     AppComponent,
     HomePageComponent,
     BarbersComponent,
-    GalleryComponent
+    GalleryComponent,
+    ScrollTopComponent
   ],
   imports: [
     BrowserModule,
